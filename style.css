@@ -1,0 +1,50 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/01/38/21/93/240_F_138219382_s6Fo2HTkgqAsEWQhMXKOl7b0RcAobRcK.jpg");
+    background-size: cover;
+}
+
+h4{
+    color: red;
+    font-style: italic;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#camera{
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+img {
+    width: 600px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 6px 8px 0 rgb(192, 163, 36);
+    margin-bottom: 30px;
+}
+
+#result1, #result2{
+    display: inline;
+}
+
+img:hover{
+    border-radius: 150px;
+}
